@@ -3,7 +3,7 @@
 	<info>
 		<name>Feylost Background - Arabelle </name>
 		<update version="0.0.1">
-			<file name="background-feylost-arabelle.xml" url="C:\Users\yasin\OneDrive\Documents\5e Character Builder\custom\supplements\wild-beyond-the-witchlight" />
+			<file name="background-feylost-arabelle.xml" url="https://raw.githubusercontent.com/mehmetyasinyetkin/aurora-character-sheets/main/background-feylost-arabelle.xml?token=GHSAT0AAAAAACUOZSRT2MSBW4AUGRSOESAKZUG7CJQ" />
 		</update>
 	</info>
 
@@ -76,7 +76,7 @@
 				<item id="8">I can’t bring myself to trust most adults.</item>
 			</select>
 			<select type="List" name="Ideal">
-				<item id="1">Friendship. I never leave a friend behind. - Empathy. No creature should be made to suffer. (Good)</item>
+				<item id="1">Friendship. I never leave a friend behind./Empathy. No creature should be made to suffer. (Good)</item>
 				<item id="2">Empathy. No creature should be made to suffer. (Good)</item>
 				<item id="3">Wanderlust. I prefer to take the less traveled path. (Chaotic)</item>
 				<item id="4">Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)</item>
@@ -86,7 +86,7 @@
 				<item id="8">Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)</item>
 			</select>
 			<select type="List" name="Bond">
-				<item id="1">I would never break my word. - I do what I can to protect the natural world.</item>
+				<item id="1">I would never break my word./I do what I can to protect the natural world.</item>
 				<item id="2">I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.</item>
 				<item id="3">I do what I can to protect the natural world.</item>
 				<item id="4">A trusted friend is the most important thing in the multiverse to me.</item>
@@ -96,11 +96,11 @@
 				<item id="8">I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose.</item>
 			</select>
 			<select type="List" name="Flaw">
-				<item id="1">I easily lose track of time. My poor sense of time means I’m always late.I’m forgetful. Sometimes I can’t remember even the simplest things.</item>
+				<item id="1">I’m forgetful. Sometimes I can’t remember even the simplest things.</item>
 				<item id="2">I think the whole multiverse is out to get me.</item>
 				<item id="3">I’m always operating under a tight timeline, and I’m obsessed with keeping everything on schedule.</item>
 				<item id="4">I’m a kleptomaniac who covets shiny, sparkling treasure.</item>
-				<item id="5">I’m forgetful. Sometimes I can’t remember even the simplest things.</item>
+				<item id="5">I’m forgetful. Sometimes I can’t remember even the simplest things./I easily lose track of time. My poor sense of time means I’m always late.</item>
 				<item id="6">I never give away anything for free and always expect something in return.</item>
 				<item id="7">I have many vices and tend to indulge them.</item>
 				<item id="8">I’m always changing my mind—well, almost always.</item>
