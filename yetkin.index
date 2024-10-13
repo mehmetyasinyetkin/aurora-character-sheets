@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Yetkin</name>
+		<update version="0.1">
+			<file name="yetkin.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft.index" />
+		</update>
+	</info>
+	<files>
+		<file name="class-gestalt-ranger-rogue" url="https://raw.githubusercontent.com/mehmetyasinyetkin/aurora-character-sheets/refs/heads/main/class-gestalt-ranger-rogue.xml" />
+
+
+		
+	</files>
+</index>
