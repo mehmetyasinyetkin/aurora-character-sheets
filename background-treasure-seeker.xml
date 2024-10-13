@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Treasure Seeker</name>
+		<update version="0.0.2">
+			<file name="background-treasure-seeker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft/backgrounds/background-haunted-one.xml" />
+		</update>
+	</info>
+	
+	<element name="Treasure Seeker" type="Background" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_BACKGROUND_TREASURE_SEEKER">
+		<description>
+			<p> Lost treasure and valuable relics brought you to Drakkenheim. Perhaps the prospect of earning more gold than you can spend in your lifetime is too tantalizing to pass up, or alternatively you may seek items for their historical or religious significance.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>  Investigation and one choice from the following: Stealth, Insight, or Perception</li>
+				<li><strong>Languages:</strong> Choose two, one of which must be Abyssal, Celestial, Deep Speech, Draconic, Infernal, Primordial, Sylvan, or Undercommon</li>
+				<li><strong>Equipment:</strong>Thieves' tools, a set of dark clothes with a hood and a face covering. A signet ring of a fake lord, a fake identification, a set of weighted dice, and a deck of cards</li>
+			</ul>
+			<h5>Treasure Hunter Secrets</h5>
+			<p>Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll one on the Harrowing Events table.</p>
+			<h5>Harrowing Event</h5>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Event</td></tr>
+				</thead>
+				<tr><td>1</td><td>You keep a cryptic map to a lost treasure that you have always wanted to uncover.</td></tr>
+				<tr><td>2</td><td>You have a coin that is heads on both sides, helpful for winning a chance game.</td></tr>
+				<tr><td>3</td><td>You have a magnifying spyglass you use to examine items.</td></tr>
+				<tr><td>4</td><td>You have a ring that opens to reveal a small compartment inside.</td></tr>
+				<tr><td>5</td><td>Your left boot has a compartment for a hidden dagger.</td></tr>
+				<tr><td>6</td><td>You carry an old compass that doesn't point north, you hope it points towards a great treasure.</td></tr>
+				<tr><td>7</td><td>You have a collection of exotic coins and medals that are of personal value to you.</td></tr>
+				<tr><td>8</td><td>You have a rival treasure hunter who used to be a partner. You parted ways years ago.</td></tr>
+			</table>
+			<div element="ID_WOTC_VRGTR_BACKGROUND_FEATURE_DETAIL_ORIENTED" />
+		</description>
+		<setters>
+			<set name="short">Investigation and one choice from the following: Stealth, Insight, or Perception</set>
+		</setters>
+		<rules>
+			<grant type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_DETAIL_ORIENTED" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Treasure Hunter Secrets">
+				<item id="1">You keep a cryptic map to a lost treasure that you have always wanted to uncover.</item>
+				<item id="2">You have a coin that is heads on both sides, helpful for winning a chance game.</item>
+				<item id="3">You have a magnifying spyglass you use to examine items.</item>
+				<item id="4">You have a ring that opens to reveal a small compartment inside.</item>
+				<item id="5">Your left boot has a compartment for a hidden dagger.</item>
+				<item id="6">You carry an old compass that doesn't point north, you hope it points towards a great treasure.</item>
+				<item id="7">You have a collection of exotic coins and medals that are of personal value to you.</item>
+				<item id="8">You have a rival treasure hunter who used to be a partner. You parted ways years ago.</item>
+			</select>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+			<select type="Proficiency" name="Skill Proficiency (Treasure Seeker)" supports="ID_PROFICIENCY_SKILL_STEALTH | ID_PROFICIENCY_SKILL_INSIGHT | ID_PROFICIENCY_SKILL_PERCEPTION" />
+
+		</rules>
+	</element>
+
+	<element name="Feature: Detail-Oriented" type="Background Feature" source="Van Richten's Guide To Ravenloft" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_DETAIL_ORIENTED">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You double your proficiency bonus when making any ability check to search the ruins of Drakkenheim.</p>
+		</description>
+		<sheet alt="Detail-Oriented">
+			<description> You double your proficiency bonus when making any ability check to search the ruins of Drakkenheim.</description>
+		</sheet>
+	</element>
+</elements>
