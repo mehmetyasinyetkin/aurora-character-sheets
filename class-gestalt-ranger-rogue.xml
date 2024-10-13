@@ -3,25 +3,23 @@
 	<info>
 		<name>Gestalt Ranger - Rogue</name>
 		<description> God give me strength idk what im doing.</description>
-		<author url="https://github.com/mehmetyasinyetkin/aurora-character-sheets/blob/main/class-gestalt-ranger-rogue.xml">Yetkin</author>
+		<author url="http://dnd.wizards.com/articles/features/unearthed-arcana-ranger-revised">Wizards of the Coast</author>
 		<update version="0.1">
-			<file name="class-gestalt-ranger-rogue.xml" url="https://raw.githubusercontent.com/mehmetyasinyetkin/aurora-character-sheets/refs/heads/main/class-gestalt-ranger-rogue.xml" />
+			<file name="20160912.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/2016/20160912.xml" />
 		</update>
 	</info>
-	<element name="Gestalt Ranger - Rogue" type="Source" source="Core" id="ID_YETKIN_SOURCE_GESTALT_RANGER_ROGUE">
+	<element name="Gestalt Ranger - Rogue" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20160912">
 		<description>
 			<p>Over the past year, you’ve seen us try a number of new approaches to the ranger, all aimed at addressing the class’s high levels of player dissatisfaction and its ranking as D&amp;D’s weakest class by a significant margin.</p>
 		</description>
 		<setters>
-			<set name="abbreviation">GsRR</set>
-			<set name="url">https://github.com/mehmetyasinyetkin/aurora-character-sheets/blob/main/class-gestalt-ranger-rogue.xml</set>
-			<set name="author" abbreviation="YETKIN" url="https://github.com/mehmetyasinyetkin/aurora-character-sheets/blob/main/class-gestalt-ranger-rogue.xml"> Yetkin.</set>
-			<set name="official">true</set>
-			<set name="playtest">true</set>
+			<set name="abbreviation">UA20160912</set>
+			<set name="url">http://dnd.wizards.com/articles/features/unearthed-arcana-ranger-revised</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
 			<set name="release">20160912</set>
 		</setters>
 	</element>
-    <element name="Gestalt Ranger - Rogue" type="Class" source="Gestalt Ranger - Rogue" id="ID_WOTC_UA20160912_CLASS_GESTALT_RANGER_ROGUE">
+    <element name="Gestalt Ranger - Rogue" type="Class" source="Unearthed Arcana: Gestalt Ranger - Rogue" id="ID_WOTC_UA20160912_CLASS_GESTALT_RANGER_ROGUE">
         <supports />
         <requirements />
         <description>
@@ -134,7 +132,7 @@
         </rules>
         
     </element>
-    <element name="Favored Enemy" type="Class Feature" source="Gestalt Ranger - Rogue" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_FAVORED_ENEMY">
+    <element name="Favored Enemy" type="Class Feature" source="Unearthed Arcana: Gestalt Ranger - Rogue" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_FAVORED_ENEMY">
         <description>
             <p>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.</p>
             <!-- added oozes and plants as basic Favored Enemies -->
