@@ -5,7 +5,7 @@
 		<description> God give me strength idk what im doing.</description>
 		<author url="http://dnd.wizards.com/articles/features/unearthed-arcana-ranger-revised">Wizards of the Coast</author>
 		<update version="0.1">
-			<file name="20160912.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/2016/20160912.xml" />
+			<file name="class-gestalt-ranger-rogue.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/2016/20160912.xml" />
 		</update>
 	</info>
 	<element name="Gestalt Ranger - Rogue" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20160912">
