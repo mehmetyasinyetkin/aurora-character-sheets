@@ -3,7 +3,7 @@
 	<info>
 		<name>Yetkin</name>
 		<update version="0.1">
-			<file name="yetkin.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft.index" />
+			<file name="yetkin.index" url="https://raw.githubusercontent.com/mehmetyasinyetkin/aurora-character-sheets/refs/heads/main/yetkin.index" />
 		</update>
 	</info>
 	<files>
