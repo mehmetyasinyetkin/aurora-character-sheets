@@ -14,7 +14,7 @@
 			<p class="indent">When you finally returned to your home plane, you did not come back unchanged. You are haunted by the fact that the Feywild—a mirror world hidden behind a mere twist of perception—is only a hair’s breadth away. Although your memories of the Feywild grow fainter with each passing day, your heart swells with a mixture of fear and joy at the prospect of one day venturing back to the Plane of Faerie—your home away from home.</p>
 			<p class="indent">This is the Arabelle's version of the Feylost. We've dropped the instrument proficiency and added insight. Also we chose 2x ideals-bonds-flaws instead of 1. added the trait "gift of the oak father"</p>
 			<ul class="unstyled">
-				<li><strong>Gift of the Oak Father:</strong> You can add your wisdom modifier to your nature checks.</li>
+				<li><strong>Knowledge of the Oak Father:</strong> You learned your ways from a guardian of the Oak Father. You can add your wisdom modifier to your nature and religion checks.</li>
 				<li><strong>Skill Proficiencies:</strong> Nature, Survival</li>
 				<li><strong>Languages:</strong> One choice of Elvish, Gnomish, Goblin, or Sylvan</li>
 				<li><strong>Equipment:</strong> A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp.</li>
@@ -58,6 +58,7 @@
 		</setters>
 		<rules>
 
+			<stat name="religion:misc" value="wisdom:modifier" />
 			<stat name="nature:misc" value="wisdom:modifier" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
