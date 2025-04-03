@@ -29,7 +29,7 @@
 			<set name="resistances">fire, radiant</set>
 			<set name="conditionImmunities">frightened</set>
 			<set name="languages">Celestial, Common</set>
-			<set name="skills">Insight +5, Perception +5, Survival +5</set>
+			<set name="skills">Athletics, Insight, Perception, Religion, Survival</set>
 			<set name="type">Celestial</set>
 			<set name="size">Medium</set>
 			<set name="alignment">Neutral Good</set>
@@ -43,8 +43,10 @@
 			<stat name="companion:hp:max" value="51" bonus="base" />
 			<stat name="companion:speed" value="40" bonus="base" />
 			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="proficiency" bonus="proficiency" />
 			<stat name="companion:insight:proficiency" value="proficiency" bonus="proficiency" />
 			<stat name="companion:perception:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:religion:proficiency" value="proficiency" bonus="proficiency" />
 			<stat name="companion:survival:proficiency" value="proficiency" bonus="proficiency" />
 			<stat name="companion:strength:save:proficiency" value="proficiency" bonus="proficiency" />
 			<stat name="companion:dexterity:save:proficiency" value="proficiency" bonus="proficiency" />
