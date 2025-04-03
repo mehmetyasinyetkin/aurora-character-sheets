@@ -1,0 +1,97 @@
+  <?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Companions</name>
+        <update version="0.0.2">
+            <file name="companion-vega.xml" url="https://github.com/mehmetyasinyetkin/aurora-character-sheets/blob/main/companion-vega.xml" />
+        </update>
+    </info>
+
+
+	<element name="Vega" type="Companion" source="Monster Manual" id="ID_WOTC_MM_COMPANION_VEGA">
+		<supports>Familiar, Variant Familiar</supports>
+		<description>
+			<p>“This large sheepdog has luxuriant white-gold fur. A pair of broad wings stretches out from the creature's back, and its eyes are filled with an intelligent, silvery gleam.”</p>
+			<p class="indent"> <strong>Celestial Guard Dogs.</strong> Created from the souls of exceptionally faithful guards and retainers who selflessly sacrificed themselves to protect others, chamrosh are celestials that take the form of large sheepdogs with silver-gold fur and eagle-like wings. They are known for their ability to sniff out evil and for their steadfast nature, refusing to back down from a fight even in the face of overwhelming odds. Because of this quality, chamrosh are often used as guard beasts by other celestials, though they are never treated as simple pets by even the haughtiest of angels.</p>
+			<p class="indent"> <strong>Roaming Defenders.</strong>  When not employed by more powerful celestials as companions and guards, chamrosh gather in small packs to roam the planes of good, attacking any fiend or evil monster they come across. They also rescue lost or trapped mortals of good or neutral alignment, leading the mortals to a place of safety or to the nearest portal back to the Material Plane. Despite their appearance, chamrosh can speak and readily do so with mortals they rescue or celestials they serve or protect...</p>
+			<p class="indent">  <strong>Occasional Planar Travelers.</strong> Chamrosh rarely travel to the Material Plane, but when they do, it is usually for an important mission, such as to defend a holy relic or to aid a paladin on a divine quest. Since a chamrosh cannot change its form, such missions do not generally involve infiltration or deception, and when the task is finished, the chamrosh is quick to return to its normal duties.</p>
+        </description>
+		<setters>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">16</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">15</set>
+			<set name="charisma">16</set>
+			<set name="ac">18</set>
+			<set name="hp">51 (7d8+19)</set>
+			<set name="speed">40 ft., fly 60 ft.</set>
+			<set name="resistances">fire, radiant</set>
+			<set name="conditionImmunities">frightened</set>
+			<set name="languages">Celestial, Common</set>
+			<set name="skills">Insight +5, Perception +5, Survival +5</set>
+			<set name="type">Celestial</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Neutral Good</set>
+			<set name="challenge">5</set>
+			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_VEGA_ANGELICAWARENESS,ID_WOTC_MM_COMPANION_TRAIT_VEGA_FLYBY,ID_WOTC_MM_COMPANION_TRAIT_VEGA_KEENHEARINGANDSMELL</set>
+			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_VEGA_BITE,ID_WOTC_MM_COMPANION_ACTION_VEGA_FEARSOMEBARK</set>
+		</setters>
+		<rules>
+
+			<stat name="companion:ac" value="18" />
+			<stat name="companion:hp:max" value="51" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:insight:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:perception:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:survival:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:strength:save:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:contitution:save:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:intelligence:save:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Angelic Awareness" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_VEGA_ANGELICAWARENESS">
+		<description>
+			<p>Vega has advantage on Wisdom (Insight) checks to determine if a creature is lying or if a creature has an evil alignment.</p>
+		</description>
+		<sheet>
+			<description>Vega has advantage on Wisdom (Insight) checks to determine if a creature is lying or if a creature has an evil alignment.</description>
+		</sheet>
+	</element>
+	<element name="Flyby" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_VEGA_FLYBY">
+		<description>
+			<p>Vega doesn't provoke opportunity attacks when it flies out of an enemy's reach..</p>
+		</description>
+		<sheet>
+			<description>Vega doesn't provoke opportunity attacks when it flies out of an enemy's reach.</description>
+		</sheet>
+	</element>
+	<element name="Keen Hearing and Smell" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_VEGA_KEENHEARINGANDSMELL">
+		<description>
+			<p>Vega has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>Vega has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_VEGA_BITE">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.</p>
+		</description>
+		<sheet>
+			<description> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Fearsome Bark (Recharge 5–6)" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_VEGA_FEARSOMEBARK">
+		<description>
+			<p>Vega lets out a high-pitched bark at a creature it can see within 30 feet of it. If the target is of evil alignment, it must make a DC 17 Wisdom saving throw. On a failure, the target takes 10 (3d6) psychic damage and is frightened until the end of its next turn. On a success, the target takes half the damage and isn't frightened. The bark has no effect on neutral or good-aligned creatures.</p>
+		</description>
+		<sheet>
+			<description>Vega lets out a high-pitched bark at a creature it can see within 30 feet of it. If the target is of evil alignment, it must make a DC 13 Wisdom saving throw. On a failure, the target takes 10 (3d6) psychic damage and is frightened until the end of its next turn. On a success, the target takes half the damage and isn't frightened. The bark has no effect on neutral or good-aligned creatures.</description>
+		</sheet>
+	</element>
+</elements>
