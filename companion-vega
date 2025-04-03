@@ -28,7 +28,7 @@
 			<set name="speed">40 ft., fly 60 ft.</set>
 			<set name="resistances">fire, radiant</set>
 			<set name="conditionImmunities">frightened</set>
-			<set name="languages">Celestial, Common</set>
+			<set name="languages">Celestial, Common, telepathy 60ft.</set>
 			<set name="skills">Athletics, Insight, Perception, Religion, Survival</set>
 			<set name="type">Celestial</set>
 			<set name="size">Medium</set>
